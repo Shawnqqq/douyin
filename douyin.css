@@ -1,0 +1,132 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.video_content{
+    height: 100%;
+    width: 100%;
+}
+.video_content video{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    vertical-align: baseline;
+    object-fit: cover;
+}
+.container .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 120px;
+    line-height: 120px;
+    overflow: hidden;
+}
+.header_left{
+    float: left;
+}
+.header .logo img{
+    width: 98px;
+    vertical-align: middle;
+    margin-left: 80px;
+}
+.header_right{
+    float: right;
+    margin-right: 150px;
+}
+.header_right nav{
+    height: 100%;
+    vertical-align: middle;
+    font-size: 16px;
+    text-shadow: 1px 2px 3px rgba(0,0,0,.7);
+}
+.header_right a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    margin-top: -50px;
+}
+.middle .title img{
+    width:450px;
+}
+.download{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+.download .apple{
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-image: url(.//appstore.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.apple a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.download .android{
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-image: url(.//android.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.android a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.qrcode{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-image: url(.//download.png);
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    position: absolute;
+    left: -180%;
+    bottom:-320px;
+    text-align: center;
+}
+.foot_top{
+    margin-bottom: 16px;
+}
+.foot_top nav{
+    font-size: 14px;
+    color: #fff;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 5px;
+}
+.foot_bottom{
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+}
+.foot_bottom img{
+    width:20px;
+}
